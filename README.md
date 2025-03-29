@@ -1,27 +1,27 @@
-# Kaggle-Advanced-SQL-solutions
 Kaggle Advanced SQL Course
 
-Overview
 
-This repository contains my solutions and notes from the Kaggle Advanced SQL Course. The course covers complex SQL concepts and techniques that are essential for data analysis, reporting, and database management.
+
+Overview
+This repository contains my solutions and notes from the Kaggle Advanced SQL Course. The course dives deep into advanced SQL concepts used for complex data analysis, reporting, and database management.
 
 Course Topics
+This course covers:
+✅ Window Functions
+✅ Common Table Expressions (CTEs)
+✅ Recursive Queries
+✅ Advanced Joins
+✅ Data Aggregation and Analysis
+✅ Query Optimization Techniques
+✅ Performance Tuning
 
-The course includes the following advanced SQL concepts:
-
+Progress Tracking
 Window Functions
-
-CTEs (Common Table Expressions)
-
+Common Table Expressions (CTEs)
 Recursive Queries
-
 Advanced Joins
-
-Data Aggregation and Analysis
-
-Query Optimization
-
-Repository Structure
+Query Optimization Techniques (In Progress)
+Performance Tuning (Pending)
 
 📂 Kaggle-Advanced-SQL
 ├── 📁 Notebooks/          # Jupyter Notebooks for each lesson
@@ -31,49 +31,38 @@ Repository Structure
 └── 📜 LICENSE             # License information
 
 Getting Started
-
 Prerequisites
-
-To run the notebooks and SQL scripts, ensure you have:
-
-Python installed (for Jupyter Notebooks)
-
-PostgreSQL or MySQL installed (optional for local SQL execution)
-
-Kaggle API (for accessing datasets)
+Ensure you have the following installed to run the notebooks and SQL scripts:
+Python (for Jupyter Notebooks)
+PostgreSQL or MySQL (optional for running queries locally)
+Kaggle API (for dataset access)
 
 Installation
+Clone the repository: git clone https://github.com/SachinKharote/Kaggle-Advanced-SQL.git
 
-Clone this repository:
+Navigate to the project directory: cd Kaggle-Advanced-SQL
 
-git clone https://github.com/SachinKharote/Kaggle-Advanced-SQL.git
+Install the required dependencies: pip install pandas numpy jupyterlab sqlalchemy psycopg2
 
-Navigate to the repository:
-
-cd Kaggle-Advanced-SQL
-
-Install required Python libraries:
-
-pip install pandas numpy jupyterlab sqlalchemy
-
-Open Jupyter Notebook:
-
-jupyter lab
+Start Jupyter Lab: jupyter lab
 
 How to Use
+Option 1: Using Kaggle Notebooks
 
-Explore the Notebooks/ folder to follow along with the course.
+Open Kaggle Advanced SQL Course.
+Navigate to the respective lesson.
+Run the notebooks and complete exercises.
 
-Use the SQL-Scripts/ folder to practice individual queries.
+Option 2: Running Locally
+Open Notebooks/ to explore SQL concepts with examples.
 
-Download datasets if required and place them in the Datasets/ folder.
+Use SQL-Scripts/ to test and practice queries.
+If datasets are needed, download them and store them in Datasets/.
+Modify and experiment with different SQL queries for better understanding.
 
-Contributing
-
-Contributions are welcome! Feel free to submit a pull request if you have improvements, additional exercises, or better explanations.
+Contributions
+Contributions are welcome! If you have improvements, additional exercises, or better explanations, feel free to submit a pull request.
 
 Connect with Me
-
 LinkedIn: Sachin Kharote
-
 GitHub: SachinKharote
